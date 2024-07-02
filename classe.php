@@ -7,4 +7,12 @@ class Movie{
 
 }
 
+
+public function __construct($nome, $descrizione, $voto) {
+    $this->nome = $nome;
+    $this->descrizione = $descrizione;
+    $this->voto = $voto;
+}
+
+
 ?>
