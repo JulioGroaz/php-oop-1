@@ -5,14 +5,16 @@ class Movie{
     public $descrizione;
     public $voto;
 
+    public function __construct($nome, $descrizione, $voto) {
+        $this->nome = $nome;
+        $this->descrizione = $descrizione;
+        $this->voto = $voto;
+    }
+
 }
 
 
-public function __construct($nome, $descrizione, $voto) {
-    $this->nome = $nome;
-    $this->descrizione = $descrizione;
-    $this->voto = $voto;
-}
+
 
 
 ?>
