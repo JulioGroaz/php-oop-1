@@ -14,6 +14,20 @@ class Movie{
     public function getDescription() {
         return "Titolo: " . $this->nome . ", Descrizione: " . $this->descrizione . ", Voto: " . $this->voto . "/10";
     }
+
+    public function getTitle() {
+        return $this->nome;
+    }
+
+    
+    public function getDescriptionText() {
+        return $this->descrizione;
+    }
+
+   
+    public function getRating() {
+        return $this->voto;
+    }
 }
 
 
