@@ -11,6 +11,9 @@ class Movie{
         $this->voto = $voto;
     }
 
+    public function getDescription() {
+        return "Titolo: " . $this->nome . ", Descrizione: " . $this->descrizione . ", Voto: " . $this->voto . "/10";
+    }
 }
 
 
